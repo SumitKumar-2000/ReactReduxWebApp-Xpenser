@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ReactReduxWebApp-Xpenser/static/css/main.c1b367ac.css",
+    "main.js": "/ReactReduxWebApp-Xpenser/static/js/main.12db630f.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/ReactReduxWebApp-Xpenser/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/added-image.png": "/ReactReduxWebApp-Xpenser/static/media/added-image.94b293c90db9eec8ca8d.png",
+    "static/media/empty.png": "/ReactReduxWebApp-Xpenser/static/media/empty.f575b5cbc3511ebaecd2.png",
+    "static/media/education.png": "/ReactReduxWebApp-Xpenser/static/media/education.f21be75359167fdc6d35.png",
+    "static/media/healthcare.png": "/ReactReduxWebApp-Xpenser/static/media/healthcare.d26b4326fc99ee87199b.png",
+    "static/media/food.png": "/ReactReduxWebApp-Xpenser/static/media/food.7bf88c6f0b524da50efd.png",
+    "static/media/shopping.png": "/ReactReduxWebApp-Xpenser/static/media/shopping.b248386d4113d20307fc.png",
+    "index.html": "/ReactReduxWebApp-Xpenser/index.html",
+    "main.c1b367ac.css.map": "/ReactReduxWebApp-Xpenser/static/css/main.c1b367ac.css.map",
+    "main.12db630f.js.map": "/ReactReduxWebApp-Xpenser/static/js/main.12db630f.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/ReactReduxWebApp-Xpenser/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1b367ac.css",
+    "static/js/main.12db630f.js"
+  ]
+}
