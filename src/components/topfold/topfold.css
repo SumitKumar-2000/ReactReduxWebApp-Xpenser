@@ -1,0 +1,83 @@
+.topfold{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0rem auto 2rem auto;
+    padding: 0.5rem 0rem;
+}
+
+.home-topfold{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.searchbar{
+    width: 40%;
+    display: flex;
+    height: 1.5rem;
+    border-radius: 12px;
+    align-items: center;
+    padding-left: 0.5rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.searchbar input{
+    border: 4px;
+    border: none;
+    outline: none;
+    padding-left: 0.5rem;
+    font-size: 0.9rem;
+    width: 9.5rem;
+}
+
+.add-button{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+    width: 6rem;
+    height: 2rem;
+}
+
+.add-button:hover{
+    background-color: #2ac2c2;
+    cursor: pointer;
+}
+
+.add-topfold{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.topfold-link{
+    width: 4.5rem;
+    height: 1.6rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.add-topfold-button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.topfold-link:hover{
+    background-color: #2ac2c2;
+    cursor: pointer;
+}
+
+.add-topfold-button i{
+    margin-right: 0.25rem;
+}

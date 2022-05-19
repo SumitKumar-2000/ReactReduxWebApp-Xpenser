@@ -1,0 +1,29 @@
+.modal-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-inner img{
+    height: 24rem;
+    width: 18rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.modal-inner-home{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+    width: 6rem;
+    height: 2rem;
+}
+
+.modal-inner-home:hover{
+    background-color: #2ac2c2;
+    cursor: pointer;
+}
+

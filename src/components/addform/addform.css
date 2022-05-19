@@ -1,0 +1,114 @@
+.add-form{
+    flex: 1;
+    display: flex;
+    padding: 1.6rem;
+    min-height: 60vh;
+    border-radius: 12px;
+    background: #71ccca;
+    flex-direction: column;
+    box-shadow: 12px 12px 24px #60adac, -12px -12px 24px #82ebe8;
+}
+
+.form-add-button{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    width: 5rem;
+    height: 2rem;
+}
+
+.form-add-button:hover{
+    background-color: #2ac2c2;
+    cursor: pointer;
+}
+
+.form-item{
+    margin: 0.8rem 0;
+    width: 70%;
+    padding: 0.2rem;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.form-item label{
+    background-color: lightgray;
+    padding: 2px 12px;
+    border-radius: 4px;
+}
+
+.form-item input{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    width: 82%;
+    margin-left: 0.25rem;
+}
+
+.category-container-parent{
+    display: flex;
+    flex: 1;
+    width: 40%;
+    flex-direction: column;
+}
+
+
+.category-dropdown{
+    display: flex;
+    margin: 0.8rem 0;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.category-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.4rem;
+    width: 94%;
+    background-color: white;
+    font-size: 1.2rem;
+    border-radius: 4px;
+}
+
+.category-item:hover{
+    background-color:rgba(255, 255, 255, 0.85);
+}
+
+.add-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.category-icon{
+    height: 2rem;
+}
+
+@media only screen and (max-width: 1722px){
+    .form-item input{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .form-item{
+        width: 100%;
+    }
+    .form-item input{
+        width: 70%;
+    }
+    .amount{
+        width: 50% !important;
+    }
+    .category-container-parent{
+        width: 70%;
+    }
+    .category-item{
+        width: 96%;
+    }
+}

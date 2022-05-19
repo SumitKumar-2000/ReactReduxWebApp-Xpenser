@@ -1,0 +1,51 @@
+ #  Action Creater Function
+
+    export const incNumber = (num) => {
+        return {                                   <-- Action
+            type : 'INCREMENT',
+            payload : num 
+        }
+    }
+    
+    // it is resuable, portable, easy to test
+
+
+#   Reducer
+
+    const initialState = 0;
+
+    const changeTheNumber = (state = initialState, action) => {
+        switch(action.type) {
+            case "INCREMENT" : return state + action.payload;
+            case "DECREMENT" : RETURN state - 1;
+            default : return state;
+        }
+    }
+
+    // reducers are functions that take the current state and an action as arguments, and return a new state result
+
+
+# Store
+
+    import {creteStore} from "redux";
+    const store = createStore(rootReducer);
+
+    // The Redux store brings together the state, actions, reducers that make up your app
+
+    // It's important to note that you'll only have a single store in a redux application
+
+    // every redux store has a single root reducer function
+
+
+
+# Redux Principals
+
+    SINGLE SOURCE OF TRUTH
+    the global state of your application is sotred as an object inside a single store
+
+    STATE IS READ-ONLY
+    the only way to change the state is to dispatch an action
+
+    IMMUTABILITY, ONE-WAY DATA FLOW,PREDICTABILITY OF OUTCOME
+
+    CHANGES ARE MADE WITH PURE REDUCER FUNCTIONS  
