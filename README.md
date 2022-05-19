@@ -24,10 +24,20 @@
     • Here You can add your commodities along with their price and category.  
     • To add you expense-commodity click on Add button.  
     • After clicking on Add button, a modal will appear showing that "your expense added successfully".
+    • Home button on Modal lets you move to the landing page consisting list of expense-commodities added by you. 
 ![image](https://user-images.githubusercontent.com/80626529/169336179-cf6fa785-526f-4dbd-b62b-89f926c6d0ce.png)
 ![image](https://user-images.githubusercontent.com/80626529/169337241-67a72c03-97b5-4964-99cb-5e35ecc909a1.png)
-![image](https://user-images.githubusercontent.com/80626529/169362790-871d7d0d-1198-426f-8c8d-ffff1f995f36.png)
+![image](https://user-images.githubusercontent.com/80626529/169412118-3837c824-5ade-43ed-ab59-36225f3004f9.png)
 
+### Expense List Page
+    • This is the same landing page, image component gets exchanged by expense list component. 
+    • The page shows you the commodities that were added at "Add Expense Page".
+    • It also shows the timeperiod when the commodity had been added.
+
+![image](https://user-images.githubusercontent.com/80626529/169413184-7b989ba3-f550-4e47-94d5-f3a763341170.png)
+
+# Bugs
+    • The Routing Process doesn't work on GitHub-Pages, thus deployed version would not be able to preview,
  
    
     
