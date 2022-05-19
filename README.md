@@ -22,6 +22,7 @@
 
 ###  Add Expense Page
     • Here You can add your commodities along with their price and category.  
+    • Enter commoditi's name, price and select the category. 
     • To add you expense-commodity click on Add button.  
     • After clicking on Add button, a modal will appear showing that "your expense added successfully".
     • Home button on Modal lets you move to the landing page consisting list of expense-commodities added by you. 
