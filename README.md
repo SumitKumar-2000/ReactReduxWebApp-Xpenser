@@ -33,6 +33,7 @@
     • This is the same landing page, image component gets exchanged by expense list component. 
     • The page shows you the commodities that were added at "Add Expense Page".
     • It also shows the timeperiod when the commodity had been added.
+    • The commodity can be deleted on clicking delete button.
 
 ![image](https://user-images.githubusercontent.com/80626529/169413184-7b989ba3-f550-4e47-94d5-f3a763341170.png)
 
