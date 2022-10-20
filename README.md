@@ -39,7 +39,7 @@
 ![image](https://user-images.githubusercontent.com/80626529/169413184-7b989ba3-f550-4e47-94d5-f3a763341170.png)
 
 # Bugs
-    • The Routing Process doesn't work on GitHub-Pages, thus deployed version would not be able to preview,
+    • The Routing Process doesn't work on GitHub-Pages, thus gh-pages deployed version would not be able to preview,
  
    
     
