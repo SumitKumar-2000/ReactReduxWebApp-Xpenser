@@ -9,12 +9,8 @@ function App() {
     <Router>
       <Header/>
       <Routes>    
-        <Route path="/" >
-          <Home/>
-        </Route>
-        <Route path="/add-expense" >
-          <AddExpense/>
-        </Route>
+        <Route path="/" element={<Home/>} exact/>
+        <Route path="/add-expense" element={<AddExpense/>} exact/>
       </Routes>
     </Router>
   );
