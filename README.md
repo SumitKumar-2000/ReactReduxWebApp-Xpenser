@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Xpenser
+- It's a web utility which allows you to add your daily expenses, commodity along with their price, and keep track of them.
+- It also provides you the functionality to set the category e.g. Education, Food, Shoping, Healthcare, etc for you expense.
+- You can add as much commodities you want and even on refreshing your commoditie's data won't loose.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Technology Used
+    The Web Application is created using following technologies and features.
+       |_ React.Js - FrontEnd Library
+       |_ Redux - State Management Tool
+       |_ React Routers - Routing Library
+       |_ React Toastify, React Modals
+       |_ Javascript
+       |_ CSS 
+       |_ HTML
 
-## Available Scripts
+# Overview
 
-In the project directory, you can run:
+###  Landing Page
+    • The image at the center shows, no commodity has been added yet.
+    • There is a search bar to search the commodity and an Add Button which takes you to another page where you can add commodity.
+![image](https://user-images.githubusercontent.com/80626529/169327786-5dc3e48d-ae5f-4f07-96e7-b0b7d128ff85.png)
 
-### `npm start`
+###  Add Expense Page
+    • Here You can add your commodities along with their price and category.  
+    • Enter commoditi's name, price and select the category. 
+    • To add you expense-commodity click on Add button.  
+    • After clicking on Add button, a modal will appear showing that "your expense added successfully".
+    • Home button on Modal lets you move to the landing page consisting list of expense-commodities added by you. 
+![image](https://user-images.githubusercontent.com/80626529/169336179-cf6fa785-526f-4dbd-b62b-89f926c6d0ce.png)
+![image](https://user-images.githubusercontent.com/80626529/169337241-67a72c03-97b5-4964-99cb-5e35ecc909a1.png)
+![image](https://user-images.githubusercontent.com/80626529/169412118-3837c824-5ade-43ed-ab59-36225f3004f9.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Expense List Page
+    • This is the same landing page, image component gets exchanged by expense list component. 
+    • The page shows you the commodities that were added at "Add Expense Page".
+    • It also shows the timeperiod when the commodity had been added.
+    • The commodity can be deleted on clicking delete button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/80626529/169413184-7b989ba3-f550-4e47-94d5-f3a763341170.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Bugs
+    • The Routing Process doesn't work on GitHub-Pages, thus deployed version would not be able to preview,
+ 
+   
+    
